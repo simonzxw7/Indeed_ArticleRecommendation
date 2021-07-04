@@ -2,6 +2,11 @@
 
 Unsupervised Topic Modelling for Indeed Articles
 
+Authors:
+Gurpreet Bedi @gbedi90  
+Lisa Liu @lisa67 
+Simon Zheng @simonzxw7
+
 ## Summary
 
 Indeed is one of the best job sites in the world, with thousands of users visiting each day, either to apply for a job or lookup for specific job-related articles. Since Indeed is an open-source website, it has both categories of users: registered and non-registered. We performed some NLP based analyses and without any supervised data with appropriate labels, forced us to look for unsupervised approach to extract topics, i.e. Unsupervised Topic Modelling.
