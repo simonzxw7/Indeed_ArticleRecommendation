@@ -1,0 +1,26 @@
+Loading Libraries...Just a moment please!...
+2021-06-20 23:28:43.252942: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcudart.so.11.0
+[nltk_data] Downloading package stopwords to /root/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package punkt to /root/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+Please provide the full path for the article.json file for making predictions from the saved model:
+/content/gdrive/MyDrive/indeed/Copy of article_20210503_to_20210525.json
+You have provided: /content/gdrive/MyDrive/indeed/Copy of article_20210503_to_20210525.json
+Can we proceed [Y for Yes]?y
+File exists! :))
+Loading file now...
+Please content column name:
+content
+Please title columns name:
+contentTitle
+Pre-processing the dataset...
+Finalizing the dataset...
+Do you want to store new article's:
+	[1]Sentence Transformer Embeddings
+	[2]UMAP Dimensionality Reduced Embeddings
+	[3]Articles with predictions
+	[4]All
+	[5]Don't save any
+You can Select multiple options comma separated (e.g.1,2):4
+File(s) have been saved at /content/gdrive/MyDrive/indeed

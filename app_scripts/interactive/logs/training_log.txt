@@ -1,0 +1,37 @@
+Loading Libraries...Just a moment please!...
+2021-06-20 23:15:18.770140: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcudart.so.11.0
+[nltk_data] Downloading package stopwords to /root/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package punkt to /root/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+Please provide the full path for the article.json file for training:
+/content/gdrive/MyDrive/indeed/Copy of article.json
+You have provided: /content/gdrive/MyDrive/indeed/Copy of article.json
+Can we proceed [Y for Yes]?y
+File exists! :))
+Loading file now...
+Please content column name:
+content
+Please title columns name:
+contentTitle
+Pre-processing the dataset...
+Finalizing the dataset...
+File rec with size: (13639, 8)
+Generating Sentence Transformer Embeddings and performing dimensionality reduction for proper clustering...
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+        Sentence Transformer embeddings received of shape: (13639, 384)
+        UMAP Reduced embeddings received of shape: (13639, 5)
+        HDBSCAN Clustered labels: 172        
+Semantically assigning cluster labels to the documents..
+Extracting Top most coherent words associated with semantically aligned documents...
+Do you want to store:
+	[1]Sentence Transformer Embeddings
+	[2]UMAP Dimensionality Reduced Embeddings
+	[3]HDBSCAN clustered labels
+	[4]All
+	[5]Don't save any of it
+You can Select multiple options comma separated (e.g.1,2):4
+File(s) have been save at /content/gdrive/MyDrive/indeed
