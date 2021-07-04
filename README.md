@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="480" height="300" src="https://github.ubc.ca/gbedi90/Project-Indeed/blob/master/image/Indeed_logo.png">
+  <img width="480" height="300" src="https://github.ubc.ca/gbedi90/Indeed_ArticleRecommendation/blob/master/image/Indeed_logo.png">
 </p>
 
 # Project-Indeed
