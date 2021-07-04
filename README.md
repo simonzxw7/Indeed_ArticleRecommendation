@@ -2,7 +2,7 @@
 
 Unsupervised Topic Modelling for Indeed Articles
 
-Authors:
+Authors:  
 Gurpreet Bedi @gbedi90  
 Lisa Liu @lisa67   
 Simon Zheng @simonzxw7    
